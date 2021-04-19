@@ -11,50 +11,131 @@
     <title>Grupo Zero</title>
   </head>
   <body>
-    <header class="bg-dark text-primary text-center ">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.jpg" alt="" width="30" height="24"> 
-                    <a class="navbar-brand" href="index.html">Grupo Zero</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galeria</a>
-                        </li>     
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>  
-                        </li>                        
-                          <div class="btn-group" role="group">
-                            <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                              Categorias
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                              <li><a class="dropdown-item" href="#">Artista link</a></li>
-                              <li><a class="dropdown-item" href="#">Pintura link</a></li>
+    <header class=" text-dark text-center ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.jpg" alt="" width="30" height="24"> 
+                        <a class="navbar-brand" href="index.html">Grupo Zero</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="galeria.html">Galeria</a>
+                            </li>     
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>  
+                            </li>                        
+                              <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Categorias
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                  <li><a class="dropdown-item" href="#">Artista link</a></li>
+                                  <li><a class="dropdown-item" href="#">Pintura link</a></li>
+                                </ul>
+                              </div>      
+                            <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
                             </ul>
-                          </div>      
-                        <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="que buscas" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
-            </div>
-     </nav>
-
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="que buscas" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                </div>
+        </nav>
+          <h1>Galerias de obras </h1>
     </header>
-    <main>
-          <h1>hola guadate</h1>  
+    <main class="Container-fluid ">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">                
+                        <div class="card-body pt-5 pb-5">
+
+                          <div class="card" style="width: 22rem; ">
+                            <img src="img/monalisa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">La Mona Lisa</h5>
+                                  <div class="btn-group" role="group">
+                                      <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Descripción de la pintura
+                                      </button>
+                                      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <li>La postura de la Mona Lisa indica serenidad y, junto con la mirada de soslayo, pero directa hacia el espectador,
+                                          muestra el dominio de los sentimientos, cosa que normalmente no se atribuía a una mujer en aquel entonces.
+                                            El rostro no tiene cejas. La expresión de la mujer en el cuadro es enigmática o ambigua.</li>                                        
+                                      </ul>
+                                </div>
+                                <p class="card-text">Esta pintura esta  avaluada en $830.000.000.-</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                            </div>
+                        </div>
+                      </div> 
+                      <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cord-body pt-5 pb-5">
+                            <div class="card" style="width: 26rem; pt-10px">
+                                <img src="img/elgrito.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">El Grito</h5>
+                                  <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Descripción de la pintura
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                      <li>El famoso cuadro “El grito” (cuyo título original era “Desesperación”) se considera un
+                                        icono de la angustia existencial. Su autor, el pintor noruego Edvard Munch (1863-1944),
+                                         fue uno de los más destacados exponentes del expresionismo y posiblemente el 
+                                         único artista noruego de resonancia mundial</li>                                        
+                                    </ul>
+                              </div>
+                                  <p class="card-text">Esta pintura esta  avaluada en $120.000.000.-</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                                </div>
+                              </div>
+                        </div>
+                      </div>  
+                      <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-body pt-5 pb-5">
+                          <div class="card" style="width: 22rem; ">
+                            <img src="img/perla.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">La joven de la perla</h5>
+                              <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Descripción de la pintura
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                  <li>Vermeer disfrazó a esta misteriosa chica con estilo oriental (turbante incluido) y le puso esa famosa perla en forma
+                                     de lágrima que aparece en otros de sus cuadros. ... Pintaba un promedio de solo dos cuadros al año y tenía nada menos 
+                                     que 11 hijos y varias trabajadoras en su casa (quizás la chica era una de ellas)</li>                                        
+                                </ul>
+                          </div>
+                              <p class="card-text">Lapintura esta avaluada en $30.000.000.-</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+      </div>
+    
+       
+
+          
+
+
+
+        
+          
+
+            
     </main>
     <footer>
 
