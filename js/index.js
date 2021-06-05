@@ -31,3 +31,5 @@ tinymce.init({
       document.querySelector("#correo-txt").value = "";
       tinymce.get("descripcion-txt").setContent("");
     });
+
+

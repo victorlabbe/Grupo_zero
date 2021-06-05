@@ -83,7 +83,8 @@
                   <td>Manuel Jimenez A.</td>                        
                 </tbody>
               </table>
-            </div>               
+            </div>
+            <form id="nuevas-form">                           
             <div class="card mb-5">
                 <div class="card-header bg-primary text-white">
                     <span>Agragar datos</span>                        
@@ -94,40 +95,41 @@
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Seleccione imagen</label>
                             <input class="form-control" type="file" id="formFile">
-                          </div>
+                        </div>
                     </thead>
                     <tbody>
                         <form>
                           <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Tutulo de la obra</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                              
+                            <label for="titulo-txt" class="form-label">Tutulo de la obra</label>
+                            <input type="text" class="form-control" id="titulo-txt" aria-describedby="">                              
                           </div>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Historia</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <label for="historia-txt" class="form-label">Historia</label>
+                              <input type="text" class="form-control" id="historia-txt" aria-describedby="">
                               <div id="emailHelp" class="form-text">La historial la cual se creo esta obra.</div>
                             </div>
                               <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Descripción</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">Detalles que quieras destacar.</div>
+                                <label for="descripciones-txt" class="form-label">Descripcion</label>
+                                <textarea  id="descripciones-txt"></textarea>
+                                
                               </div>
                               <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Tecnica usada</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="tecnica-txt" class="form-label">Tecnica usada</label>
+                                <input type="text" class="form-control" id="tecnica-txt" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text"></div>
                               </div>
                               <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Valor</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="valor-txt" class="form-label">Valor</label>
+                                <input type="text" class="form-control" id="valor-txt" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text"></div>
                               </div>
-                            <a href="" class="btn btn-primary">Agregar</a>
+                              <button type="submit" class="btn btn-primary">Agregar</button>
                         </form>           
                     </tbody>
                 </table>
                 </div>                
-            </div >               
+            </div >  
+          </form>               
         </div>         
     </main>
         <footer class="bg-dark text-dark pt-3 pb-4 mt-10">
@@ -153,7 +155,9 @@
           </div>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+    <script src="vendor/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/contacto.js"></script>     
     
   </body>
 </html>
