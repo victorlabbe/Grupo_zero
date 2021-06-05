@@ -91,14 +91,17 @@
                 </div>
                 <div class="card-body">
                 <table class="table table-hover table-bordered table-stripped">
-                    <thead>
-                        <div class="mb-3">
-                            <label for="formFile" class="form-label">Seleccione imagen</label>
-                            <input class="form-control" type="file" id="formFile">
-                        </div>
+                    <thead>                   
+            
                     </thead>
                     <tbody>
-                        <form>
+                    <form>
+                  
+                        <div class="mb-3">
+                            <label for="imagen-txt" class="form-label">Ingrese link de la imagen</label>
+                            <input type="text" class="form-control" id="imagen-txt" aria-describedby=""> 
+                        </div>
+                      
                           <div class="mb-3">
                             <label for="titulo-txt" class="form-label">Tutulo de la obra</label>
                             <input type="text" class="form-control" id="titulo-txt" aria-describedby="">                              
@@ -120,10 +123,11 @@
                               </div>
                               <div class="mb-3">
                                 <label for="valor-txt" class="form-label">Valor</label>
-                                <input type="text" class="form-control" id="valor-txt" aria-describedby="emailHelp">
+                                <input type="text" class="form-control" id="valor-txt" >
                                 <div id="emailHelp" class="form-text"></div>
                               </div>
                               <button type="submit" class="btn btn-primary">Agregar</button>
+                              
                         </form>           
                     </tbody>
                 </table>
