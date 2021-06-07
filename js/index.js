@@ -41,7 +41,7 @@ tinymce.init({
         let siValido = true;
     
         document.querySelector("#correo-txt").classList.remove("is-invalid");
-        document.querySelector("descripcion-txt").classList.remove("is-invalid");       
+        //document.querySelector("descripcion-txt").classList.remove("is-invalid");       
     
         
         if (correo.trim() == "") {
@@ -49,7 +49,7 @@ tinymce.init({
             siValido = false;
         }
         if (descripcion.trim() == "") {
-            document.querySelector("descripcion-txt").classList.add("is-invalid");
+            //document.querySelector("descripcion-txt").classList.add("is-invalid");
             siValido = false;
         }
         
@@ -66,7 +66,7 @@ tinymce.init({
     
         }
         document.querySelector("#correo-txt").value = "";
-        document.querySelector("descripcion-txt").setContent("") ;        
+        tinymce.get("descripcion-txt").setContent("") ;       
     
             console.log(contactoForm);
     });

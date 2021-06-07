@@ -51,7 +51,7 @@ tinymce.init({
           siValido = false;
      // }
       //if (descripciones.trim() == "") {
-        //  document.querySelector("descripcion-txt").classList.add("is-invalid");
+        //  document.querySelector("descripcion-txt")q.classList.add("is-invalid");
           //siValido = false;
       }
       if (tecnica.trim() == "") {
@@ -73,7 +73,7 @@ tinymce.init({
       document.querySelector("#imagen-txt").value = "";
       document.querySelector("#titulo-txt").value = "";
       document.querySelector("#historia-txt").value = "";
-      //document.querySelector("descripcion-txt").setContent("");
+      tinymce.get("descripcion-txt").setContent("");
       document.querySelector("#tecnica-txt").value = "";
       document.querySelector("#valor-txt").value = "";
       
